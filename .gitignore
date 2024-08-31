@@ -1,0 +1,8 @@
+# compiled files
+**/*.pdf
+
+# MacOS specific files (Apple sucks)
+.DS_Store
+
+# Personal details folder
+hynduf
