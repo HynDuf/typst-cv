@@ -6,11 +6,13 @@
 
 ## How to use
 
-1. Change your personal data in `template/metadata.toml` and `template/module_*/`.
+1. Install necessary stuff (`typst`, Font Awesome)
 
-2. See `main.typ` for CV structure and `main_letter.typ` for cover letter. Change it to however you like.
+2. Change your personal data in `template/metadata.toml` and `template/module_*/`.
 
-3. Run commands to generate `main.pdf` and `main_letter.pdf` respectively.
+3. See `main.typ` for CV structure and `main_letter.typ` for cover letter. Change it to however you like.
+
+4. Run commands to generate `main.pdf` and `main_letter.pdf` respectively.
     ```typst
     typst compile main.typ
     ```
