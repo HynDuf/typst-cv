@@ -40,14 +40,14 @@
   let headerFirstNameStyle(str) = {
     text(
       font: headerFont,
-      size: 23pt,
+      size: 16pt,
       weight: "bold",
       fill: regularColors.darkgray,
       str,
     )
   }
   let headerLastNameStyle(str) = {
-    text(font: headerFont, size: 23pt, weight: "bold", str)
+    text(font: headerFont, size: 16pt, weight: "bold", str)
   }
   let headerInfoStyle(str) = {
     text(size: 10pt, fill: accentColor, str)
@@ -124,7 +124,7 @@
     columns: 1fr,
     inset: 0pt,
     stroke: none,
-    row-gutter: 5mm,
+    row-gutter: 4mm,
     if nonLatin [
       #headerFirstNameStyle(nonLatinName),
     ] else [#headerFirstNameStyle(firstName) #h(5pt) #headerLastNameStyle(lastName)],
@@ -190,7 +190,7 @@
       columns: (1fr, auto),
       inset: 0pt,
       stroke: none,
-      footerStyle(footerText), footerStyle([Written in Typst]),
+      [], footerStyle(footerText),
     ),
   )
 }
@@ -213,12 +213,12 @@
   let lang = metadata.language
   let nonLatin = isNonLatin(lang)
   let beforeSectionSkip = eval(
-    metadata.layout.at("before_section_skip", default: 1pt),
+    metadata.layout.at("before_section_skip", default: 0pt),
   )
   let accentColor = setAccentColor(awesomeColors, metadata)
 
   let sectionTitleStyle(str, color: black) = {
-    text(size: 13pt, weight: "bold", fill: color, smallcaps(str))
+    text(size: 11pt, weight: "bold", fill: color, smallcaps(str))
   }
 
   v(beforeSectionSkip)
@@ -228,7 +228,7 @@
     sectionTitleStyle(title, color: accentColor)
 
   }
-  v(-10pt)
+  v(-8pt)
   box(width: 1fr, line(stroke: 0.9pt + accentColor, length: 100%))
 }
 
@@ -264,7 +264,7 @@
   )
 
   let entryA1Style(str) = {
-    text(size: 10pt, weight: "bold", str)
+    text(size: 9pt, weight: "bold", str)
   }
   let entryA2Style(str) = {
     align(
@@ -273,12 +273,12 @@
     )
   }
   let entryB1Style(str) = {
-    text(size: 8pt, fill: accentColor, weight: "bold", smallcaps(str))
+    text(size: 7.5pt, fill: accentColor, weight: "bold", smallcaps(str))
   }
   let entryB2Style(str) = {
     align(
       right,
-      text(size: 8pt, weight: "bold", fill: gray, style: "oblique", str),
+      text(size: 7.5pt, weight: "bold", fill: gray, style: "oblique", str),
     )
   }
   let entryDescriptionStyle(str) = {
@@ -291,7 +291,7 @@
     )
   }
   let entryTagStyle(str) = {
-    align(center, text(size: 8pt, weight: "regular", str))
+    align(center, text(size: 7pt, weight: "regular", str))
   }
   let entryTagListStyle(tags) = {
     for tag in tags {
@@ -402,10 +402,10 @@
 /// -> content
 #let cvSkill(type: "Type", info: "Info") = {
   let skillTypeStyle(str) = {
-    align(horizon + right, text(size: 9pt, weight: "bold", str))
+    align(horizon + right, text(size: 8pt, weight: "bold", str))
   }
   let skillInfoStyle(str) = {
-    text(size: 9pt, str)
+    text(size: 8pt, str)
   }
 
   table(
@@ -416,7 +416,7 @@
     stroke: none,
     skillTypeStyle(type), skillInfoStyle(info),
   )
-  v(-5pt)
+  v(-4pt)
 }
 
 /// Add a Honor to the CV.

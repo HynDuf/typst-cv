@@ -6,9 +6,9 @@ language = "en"
 awesome_color = "skyblue"
 
 # Skips are for controlling the spacing between sections and entries
-before_section_skip = "1pt"
-before_entry_skip = "1pt"
-before_entry_description_skip = "1pt"
+before_section_skip = "-2pt"
+before_entry_skip = "-1pt"
+before_entry_description_skip = "0pt"
 
 [layout.header]
 # Optional values: left, center, right
@@ -43,7 +43,7 @@ last_name = "Tiến Dũng"
 github = "hynduf"
 linkedin = "hynduf"
 email = "hynduf@gmail.com"
-phone = "+8499999999"
+phone = "+84399910055"
 # gitlab = "mintyfrankie"
 # homepage = "jd.me.org"
 # orcid = "0000-0000-0000-0000"
@@ -56,7 +56,7 @@ phone = "+8499999999"
 # each section must contains the following fields
 [lang.en]
 header_quote = ""
-cv_footer = "Curriculum vitae"
+cv_footer = ""
 letter_footer = "Cover letter"
 
 [lang.fr]

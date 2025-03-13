@@ -15,12 +15,9 @@
   let headerFont = latinHeaderFont
 
   // Page layout
-  set text(font: fontList, weight: "regular", size: 9pt)
+  set text(font: fontList, weight: "regular", size: 8pt)
   set align(left)
-  set page(
-    paper: "a4",
-    margin: (left: 1.4cm, right: 1.4cm, top: .8cm, bottom: .4cm),
-  )
+  set page(paper: "a4", margin: (left: 1cm, right: 1cm, top: .4cm, bottom: .4cm))
 
   _cvHeader(metadata, headerFont, regularColors, awesomeColors)
   show link: set text(weight: 700, fill: maroon)
@@ -49,10 +46,7 @@
   // Page layout
   set text(font: fontList, weight: "regular", size: 9pt)
   set align(left)
-  set page(
-    paper: "a4",
-    margin: (left: 1.4cm, right: 1.4cm, top: .8cm, bottom: .4cm),
-  )
+  set page(paper: "a4", margin: (left: 1.4cm, right: 1.4cm, top: .8cm, bottom: .4cm))
   set text(size: 12pt)
 
   letterHeader(

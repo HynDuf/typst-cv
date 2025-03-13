@@ -15,25 +15,25 @@
   location: [Ho Chi Minh City, Vietnam - Remote],
   description: list(
     [
-Research virtual try-on systems.
-- Develop real-time cloth try-on using SMPL body models, implement cloth simulation with Extended Position Based Dynamics (XPBD) and Linear Blend Skinning (LBS), and cloth-body collision detection using PyOpenGL and Warp for GPU optimization.
-- Build a real-time virtual try-on pipeline with machine learning models for human detection, pose estimation, and cloth simulation.
+        Conducted research on virtual try-on systems.
+        - Developed real-time cloth try-on using SMPL body models, implemented cloth simulation with Extended Position-Based Dynamics (XPBD) and Linear Blend Skinning (LBS), and performed cloth-body collision detection using PyOpenGL and Warp for GPU optimization.
+        - Built a real-time virtual try-on pipeline incorporating machine learning models for human detection, pose estimation, and cloth simulation.
     ],
   ),
-  tags: ("Virtual Try-on", "Computer Graphics", "Machine Learning"),
+  tags: ("Virtual Try-On", "Computer Graphics", "Machine Learning"),
 )
 
 #cvEntry(
-  title: [Software Engineer - Backend Developer Itern],
+  title: [Software Engineer - Backend Developer Intern],
   society: [Phygital Labs],
   logo: image("../src/logos/phygital-lab.jpg"),
   date: [Jun 2023 - Sep 2023],
   location: [Ho Chi Minh City, Vietnam - Onsite],
   description: list(
     [
-        Golang backend developer for the #link("https://nomion.io/")[Nomion] project (https://nomion.io/) (connect physical identity to the digital world via Blockchain infrastructure).
-        -  Build robust and efficient APIs for the backend server of Nomion.
-        - Interact with Blockchain infrastructure using Go Ethereum.
+        Backend developer for the #link("https://nomion.io/")[Nomion] project (connecting physical identity to the digital world via blockchain).
+        - Built robust and efficient APIs for the backend server of Nomion.
+        - Integrated blockchain infrastructure using Go Ethereum.
     ],
   ),
   tags: ("Golang", "MongoDB", "Blockchain"),

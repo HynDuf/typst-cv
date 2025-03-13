@@ -8,7 +8,7 @@
 
 #cvSkill(
   type: [Languages],
-  info: [Vietnamese #hBar() English #hBar() Japanese (Learning)],
+  info: [Vietnamese #hBar() English (IELTS 8.0) #hBar() Japanese (Learning)],
 )
 
 #cvSkill(

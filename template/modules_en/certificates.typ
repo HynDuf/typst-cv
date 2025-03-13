@@ -7,25 +7,24 @@
 
 #cvSection("Achievements")
 
-
 #cvHonor(
   date: [2024],
   title: [
-    *Contestant at The 2024 ICPC Asia Pacific Championship* \
-    Team _rmdir_ - One of twelve Vietnamese teams qualified
+    *Contestant at the 2024 ICPC Asia Pacific Championship* \
+    Team _rmdir_ – One of twelve Vietnamese teams to qualify
   ],
 )
 
 #cvHonor(
   date: [2023],
-  title: [*Second Prize in VNU-level Scienctific Research Competition*],
+  title: [*Second Prize in the VNU-Level Scientific Research Competition*],
 )
 
 #cvHonor(
   date: [2021 - 2022],
   title: [
-    *First Prize at The 2022 (Ho Chi Minh) and The 2021 (Ha Noi) ICPC Asia Regional Contest* \
-    Team _MariaDB_ (6-th place) and _Nano_ (7-th place)
+    *First Prize at the 2022 (Ho Chi Minh) and 2021 (Hanoi) ICPC Asia Regional Contests* \
+    Team _MariaDB_ (6th place) and _Nano_ (7th place)
   ],
 )
 
